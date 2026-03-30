@@ -1,365 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florian Celibashi - Portfolio</title>
+    <title>Florian Celibashi - Resume</title>
+    <meta http-equiv="refresh" content="0; url=Florian-Celibashi-Resume.pdf">
     <style>
-        :root {
-            --text: #000000;
-            --muted: #000000;
-            --border: #000000;
-            --background: #FFFFFF;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             margin: 0;
-            padding: 0;
+            padding: 32px;
             font-family: Garamond, "EB Garamond", Georgia, serif;
-            background-color: #FFFFFF;
-            color: var(--text);
-        }
-
-        .page {
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: #FFFFFF;
-            border-radius: 0;
-            box-shadow: none;
-            padding: 32px 48px 40px;
-            border: none;
-        }
-
-        header {
-            padding-bottom: 10px;
-            margin-bottom: 14px;
-            text-align: center;
-        }
-
-        .name {
-            font-size: 2.4rem;
-            font-weight: 700;
-            letter-spacing: 0.03em;
-        }
-
-        .headline {
-            font-size: 1rem;
-            margin-top: 4px;
-            color: var(--muted);
-        }
-
-        .contact {
-            margin-top: 10px;
-            font-size: 1rem;
-            color: var(--text);
-        }
-
-        .contact a {
-            color: #0B5FA5;
-            text-decoration: underline;
-        }
-
-        .contact span {
-            margin: 0 8px;
-        }
-
-        section {
-            margin-bottom: 16px;
-        }
-
-        h2 {
-            font-size: 1.25rem;
-            letter-spacing: 0;
-            text-transform: none;
             color: #000000;
-            margin: 12px 0 8px;
-            padding-bottom: 6px;
-            border-bottom: 2px solid #000000;
+            background: #ffffff;
         }
-
-        .row {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            gap: 12px;
+        .card {
+            max-width: 640px;
+            margin: 0 auto;
+            border: 1px solid #000000;
+            padding: 24px 28px;
         }
-
-        .row-title {
-            font-weight: 700;
+        h1 {
+            margin: 0 0 12px;
+            font-size: 1.6rem;
         }
-
-        .row-subtitle {
-            font-style: italic;
-            color: var(--text);
-            margin-top: 2px;
-        }
-
-        .row-date,
-        .row-location {
-            font-size: 1rem;
-            color: var(--text);
-            white-space: nowrap;
-        }
-
-        .stack-line {
-            margin-top: 6px;
-            font-size: 0.92rem;
-            color: var(--muted);
-        }
-
-        ul {
-            margin: 6px 0 6px 36px;
-            padding: 0;
-            font-size: 1.05rem;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .skills-list {
-            list-style: none;
-            margin-left: 0;
-        }
-
-        .skills-list li {
-            margin-bottom: 4px;
-        }
-
-        .skills-label {
-            font-weight: 600;
-        }
-
-        .project-title-line {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            gap: 12px;
-        }
-
-        .project-title {
-            font-weight: 700;
-        }
-
-        .project-link a {
-            font-size: 1.05rem;
+        a {
             color: #0B5FA5;
             text-decoration: underline;
-        }
-
-        .project-description {
-            margin-top: 4px;
-            font-size: 0.95rem;
-        }
-
-        article {
-            margin-bottom: 14px;
-        }
-
-        @media (max-width: 640px) {
-            .page {
-                padding: 24px 18px 20px;
-            }
-
-            .row,
-            .project-title-line {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .row-date,
-            .row-location {
-                white-space: normal;
-            }
         }
     </style>
 </head>
-
 <body>
-    <div class="page">
-        <header>
-            <div class="name">Florian Celibashi</div>
-            <div class="contact">
-                <a href="tel:+17272839003">+1 (727) 283-9003</a><span> | </span>
-                <a href="mailto:florian.celibashi@icloud.com">florian.celibashi@icloud.com</a><span> | </span>
-                <a href="http://www.linkedin.com/in/florian-celibashi-88957335a" target="_blank"
-                    rel="noopener noreferrer">LinkedIn</a><span> | </span>
-                <a href="https://github.com/Florian-Celibashi" target="_blank"
-                    rel="noopener noreferrer">GitHub</a><span> | </span>
-                Tampa, FL
-            </div>
-        </header>
-
-        <section>
-            <h2>Education</h2>
-            <div class="row">
-                <div class="row-title">University of South Florida</div>
-                <div class="row-date">Dec 2027</div>
-            </div>
-            <div class="row" style="margin-top:2px;">
-                <div>Bachelor of Science, Computer Science</div>
-                <div class="row-date">GPA: 3.64</div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li><span class="skills-label">Languages:</span> JavaScript, TypeScript, Python, Java, C, C++, C#</li>
-                <li><span class="skills-label">Frontend:</span> React, Vite, Next.js, HTML/CSS, Tailwind CSS</li>
-                <li><span class="skills-label">Backend:</span> Node.js, FastAPI, REST APIs, SQL, PostgreSQL, Express
-                </li>
-                <li><span class="skills-label">AI/ML:</span> RAG, Prompt Engineering, LLM Evaluation, Multimodal
-                    Annotation, OpenAI API</li>
-                <li><span class="skills-label">DevOps, Deployment &amp; Tools:</span> Git, GitHub, Linux, Bash/Shell,
-                    Vercel, Supabase, Render</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Projects</h2>
-
-            <article>
-                <div class="project-title-line">
-                    <div class="project-title">
-                        Ava AI Assistant |
-                        <a href="https://ava-ai-assistant.vercel.app" target="_blank"
-                            rel="noopener noreferrer">https://ava-ai-assistant.vercel.app</a>
-                    </div>
-                </div>
-                <div class="project-description">
-                    Built a professional AI assistant that uses vector search to serve context-aware answers from my
-                    résumé; developed a FastAPI backend (retrieval + OpenAI API) and a React/Vite frontend with a chat
-                    UI and startup-readiness notice, packaged for deployment.
-                </div>
-            </article>
-
-            <article>
-                <div class="project-title-line">
-                    <div class="project-title">
-                        Blackjack Web Online Game |
-                        <a href="https://florians-blackjack.vercel.app" target="_blank"
-                            rel="noopener noreferrer">https://florians-blackjack.vercel.app</a>
-                    </div>
-                </div>
-                <div class="project-description">
-                    Built a responsive browser-based blackjack game with React and Tailwind; added animations, keyboard
-                    hit/stand controls, audio, and a first-time user tutorial. Integrated Supabase (PostgreSQL + Auth)
-                    to persist wins/losses/streaks and added leaderboard overlays with configurable UI toggles.
-                </div>
-            </article>
-
-            <article>
-                <div class="project-title-line">
-                    <div class="project-title">
-                        BuddyBot 2.0 Minecraft AI Companion |
-                        <a href="https://github.com/Florian-Celibashi/Buddybot-2" target="_blank"
-                            rel="noopener noreferrer">https://github.com/Florian-Celibashi/Buddybot-2</a>
-                    </div>
-                </div>
-                <div class="project-description">
-                    Built an AI-powered Minecraft companion with Node.js and mineflayer; controlled via spawn/despawn
-                    chat commands and OpenAI-backed chat replies. Implemented modular follow/assist/inventory/combat
-                    behaviors plus log-watching and safe shutdown to prevent ghost connections.
-                </div>
-            </article>
-
-            <article>
-                <div class="project-title-line">
-                    <div class="project-title">
-                        RIP Sora 1.0 Media Wall |
-                        <a href="https://rip-sora-web.vercel.app" target="_blank"
-                            rel="noopener noreferrer">https://rip-sora-web.vercel.app</a>
-                    </div>
-                </div>
-                <div class="project-description">
-                    Built a Sora-inspired media wall that auto-loads all local image/video assets, enforces silent
-                    autoplay looping video playback, and uses a dense masonry-style layout algorithm to minimize empty
-                    space while preserving large-format landscape tiles. Added a media sync/build pipeline and deployed
-                    the project to Vercel for repeatable updates.
-                </div>
-            </article>
-        </section>
-
-        <section>
-            <h2>Experience</h2>
-
-            <article>
-                <div class="row">
-                    <div>
-                        <div class="row-title">Handshake AI</div>
-                        <div class="row-subtitle">AI Trainer</div>
-                    </div>
-                    <div style="text-align:right;">
-                        <div class="row-location">Remote</div>
-                        <div class="row-date"><em>Nov 2025 – Present</em></div>
-                    </div>
-                </div>
-                <ul>
-                    <li>Evaluated and annotated <strong>50+ multimodal AI outputs/hour</strong> (text, image, video,
-                        audio) against rubrics for accuracy, realism, safety, and prompt adherence.</li>
-                    <li>Produced high-quality training/evaluation artifacts while maintaining strong QA performance.
-                    </li>
-                </ul>
-            </article>
-
-            <article>
-                <div class="row">
-                    <div>
-                        <div class="row-title">Infotect Design Solutions</div>
-                        <div class="row-subtitle">IT Operations Specialist</div>
-                    </div>
-                    <div style="text-align:right;">
-                        <div class="row-location">Tampa, Florida</div>
-                        <div class="row-date"><em>Aug 2023 – Mar 2024</em></div>
-                    </div>
-                </div>
-                <ul>
-                    <li><strong>Served as first point of contact</strong> during shifts; created, triaged, prioritized,
-                        and dispatched <strong>100+ tickets/week</strong>, coordinating follow-ups and escalations
-                        through resolution.</li>
-                    <li>Built Excel-based KPI/trend reporting to track technician productivity and ticket throughput,
-                        delivered daily status updates to management.</li>
-                </ul>
-                <div class="row" style="margin-top:10px;">
-                    <div>
-                        <div class="row-subtitle">IT Operations Intern</div>
-                    </div>
-                    <div style="text-align:right;">
-                        <div class="row-date"><em>Jul 2023 – Aug 2023</em></div>
-                    </div>
-                </div>
-                <ul>
-                    <li>Created a standardized CRM “client quick-reference” template and populated <strong>50+ client
-                            records</strong> to streamline call intake and technician handoffs.</li>
-                </ul>
-            </article>
-
-            <article>
-                <div class="row">
-                    <div>
-                        <div class="row-title">QVC</div>
-                        <div class="row-subtitle">Customer Service Specialist</div>
-                    </div>
-                    <div style="text-align:right;">
-                        <div class="row-location">Remote</div>
-                        <div class="row-date"><em>Jul 2022 – Mar 2023</em></div>
-                    </div>
-                </div>
-                <ul>
-                    <li>Handled <strong>100+ calls/day</strong> resolving order and billing issues; maintained
-                        <strong>&lt;3 min AHT</strong>, <strong>90+/100 QA score</strong>, and earned <strong>10+
-                            customer commendations</strong>.
-                    </li>
-                </ul>
-            </article>
-        </section>
+    <div class="card">
+        <h1>Opening resume</h1>
+        <p>If your browser did not open it automatically, you can download it here:</p>
+        <p><a href="Florian-Celibashi-Resume.pdf">Florian Celibashi Resume (PDF)</a></p>
     </div>
+    <script>
+        window.location.replace("Florian-Celibashi-Resume.pdf");
+    </script>
 </body>
-
 </html>
